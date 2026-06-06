@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: gpu-optimizer
+Version: 0.1.0
+Summary: GPU-accelerated parallel simulated annealing for optimization problems
+License: MIT
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: torch>=2.0
+Requires-Dist: numpy>=1.24
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0; extra == "dev"
+Requires-Dist: pytest-benchmark; extra == "dev"
